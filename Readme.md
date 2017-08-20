@@ -10,19 +10,19 @@
 
 In order to display a report for a fixed set of data:
 
-- run `gradlew fixed`
+- run `./gradlew fixed` (Linux) or `gradlew fixed` (Windows)
 - alternatively use an IDE to run the `FixedDataRunner` class
 
 ### Displaying a randomized report
 
 In order to display a report for a randomly generated set of data:
 
-- run `gradlew random`
+- run `./gradlew random` (Linux) or `gradlew random` (Windows)
 - alternatively use an IDE to run the `RandomDataRunner` class
 
 ### Running tests
 
-- run `gradlew test`
+- run `./gradlew test` (Linux) or `gradlew test` (Windows)
 
 Tests do not cover classes implemented for demo purposes (data generators, runners, etc)
 
